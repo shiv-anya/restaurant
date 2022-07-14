@@ -1,0 +1,241 @@
+/* Navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.active{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+.primary-btn{
+    background-color: rgb(244, 4, 4);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#header{
+    height: 70vh;
+    background: url(./images/melissa-walker-horn-vACInYhNjY0-unsplash.jpg) no-repeat center center/cover;
+}
+#header .nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 30px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#header .nav img{
+    height: 55px;
+    width: 55px;
+    float: left;
+    position: relative;
+    left: -10px;
+    bottom: 22px
+}
+.side{
+    float: right;
+}
+#header ul{
+    width: 700px;
+}
+#header ul li{
+    list-style: none;
+    float: left;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #000;
+    /* margin-right: 40px; */
+    padding: 20px;
+    font-size: 20px;
+}
+#header ul li a:hover{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+#header .side button{
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+.hero{
+    width: 1200px;
+    color: #fff;
+    position: relative;
+}
+.front{
+    height: 583px;
+    width: 1200px;
+    position: absolute;
+    /* left: -50px; */
+}
+.hero h1{
+    font-size: 4rem;
+    margin-top: 150px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.thin{
+    font-weight: 100;
+}
+.hero button{
+    margin-top: 40px;
+    width: 150px;
+}
+.hero p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.clear{
+    clear: both;
+}
+/* Footer */
+.footer{
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    width: 100%;
+    margin: 30px 0;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    padding-right: 20px;
+    border-right: 1px rgb(161, 160, 160) solid;
+}
+.footer p{
+    float: left;
+}
+.footer ul{
+    float: right;
+}
+/* About */
+.about{
+    height: 400px;
+}
+.about h2{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.about p{
+    margin: 10px 0;
+}
+.about-us{
+    float: left;
+    width: 50%;
+    padding: 40px;
+}
+.about-dine{
+    float: right;
+    width: 50%;
+    padding: 40px;
+}
+/* achievements */
+.achievements{
+    width: 100%;
+    border-top: 1px #d0d0d0 solid;
+    padding: 30px;
+    padding-top: 40px;
+    height: 30vh;
+    text-align: center;
+}
+.achievements ul li{
+    float: left;
+    list-style: none;
+    margin-right: 150px;
+}
+.achievements h2{
+    font-size: 2.5rem;
+}
+.center{
+    width: 1200px;
+    height: 20vh;
+    margin: 0 auto;
+}
+/*photos*/
+.photos{
+    height: 600px;
+    width: 1200px;
+    background-color: #333;
+    margin: 0 auto;
+}
+.l1-pic1{
+    height: 200px;
+    width: 400px;
+    background: url(./images/adam-jaime-dmkmrNptMpw-unsplash.jpg) no-repeat center center/ cover;
+}
+.l1-pic2{
+    height: 200px;
+    width: 400px;
+    background: url(./images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg) no-repeat center center/ cover;
+}
+.l1-pic3{
+    height: 200px;
+    width: 400px;
+    background: url(./images/brooke-lark-HlNcigvUi4Q-unsplash.jpg) no-repeat center center/ cover;
+}
+.l2-pic1{
+    height: 200px;
+    width: 600px;
+    background: url(./images/brooke-lark-jUPOXXRNdcA-unsplash.jpg) no-repeat center center/ cover;
+}
+.l2-pic2{
+    height: 200px;
+    width: 600px;
+    background: url(./images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) no-repeat center center/ cover;
+}
+.l3-pic1{
+    height: 200px;
+    width: 400px;
+    background: url(./images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) no-repeat center center/ cover;
+}
+.l3-pic2{
+    height: 200px;
+    width: 400px;
+    background: url(./images/lidye-1Shk_PkNkNw-unsplash.jpg) no-repeat center center/ cover;
+}
+.l3-pic3{
+    height: 200px;
+    width: 400px;
+    background: url(./images/rachel-park-hrlvr2ZlUNk-unsplash.jpg) no-repeat center center/ cover;
+}
+.line1 .l1-pic1{
+    float: left;
+    display: inline;
+}
+.l1-pic3{
+    float: right;
+}
+.l1-pic2{
+    float: right;
+}
+.l2-pic1{
+    float: left;
+}
+.l2-pic2{
+    float: right;
+}
+.l3-pic1{
+    float: left;
+    display: inline;
+}
+.l3-pic3{
+    float: right;
+}
+.l3-pic2{
+    float: right;
+}

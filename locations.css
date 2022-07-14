@@ -1,0 +1,168 @@
+/* Navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.active{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+.primary-btn{
+    background-color: rgb(244, 4, 4);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#header{
+    height: 70vh;
+    background: url(./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) no-repeat center center/cover;
+}
+#header .nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 30px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#header .nav img{
+    height: 55px;
+    width: 55px;
+    float: left;
+    position: relative;
+    left: -10px;
+    bottom: 22px
+}
+.side{
+    float: right;
+}
+#header ul{
+    width: 700px;
+}
+#header ul li{
+    list-style: none;
+    float: left;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #000;
+    /* margin-right: 40px; */
+    padding: 20px;
+    font-size: 20px;
+}
+#header ul li a:hover{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+#header .side button{
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+.hero{
+    width: 1200px;
+    color: #fff;
+    position: relative;
+}
+.front{
+        height: 65vh;
+        background-color: rgb(0, 0, 0, 0.7);
+        width: 1280px;
+        position: absolute;
+        top: 30px;
+        left: 0px;
+}
+.hero h1{
+    font-size: 4rem;
+    margin-top: 150px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.thin{
+    font-weight: 100;
+}
+.hero button{
+    margin-top: 40px;
+    width: 150px;
+}
+.hero p{
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 100;
+}
+.clear{
+    clear: both;
+}
+/* Footer */
+.footer{
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    width: 100%;
+    margin: 30px 0;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    padding-right: 20px;
+    border-right: 1px rgb(161, 160, 160) solid;
+}
+.footer p{
+    float: left;
+}
+.footer ul{
+    float: right;
+}
+/* /location */
+.locations{
+    width: 1250px;
+}
+.location{
+    /* background-color: #333; */
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    /* margin-right: -25px; */
+}
+.location1{
+    float: left;
+    width: 600px;
+    /* margin-left: 20px; */
+    text-align: center;
+}
+.location2{
+    text-align: center;
+    float: right;
+    width: 600px;
+}
+.l1-1{
+    float: left;
+}
+.l1-2{
+    float: right;
+}
+.l2-1{
+    float: left;
+}
+.l2-2{
+    float: right;
+}
+.location h2{
+    margin: 0px 0 20px 0;
+}
+.red{
+    color: rgb(244, 4, 4);
+    margin-top: 5px;
+}

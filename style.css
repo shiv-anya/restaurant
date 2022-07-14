@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.primary-btn{
+    background-color: rgb(244, 4, 4);
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#header{
+    height: 100vh;
+    background: url(./images/brooke-lark-M4E7X3z80PQ-unsplash.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+}
+#header .nav{
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 30px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#header .nav img{
+    height: 55px;
+    width: 55px;
+    float: left;
+    position: relative;
+    left: -10px;
+    bottom: 22px
+}
+.side{
+    float: right;
+}
+#header ul{
+    width: 700px;
+}
+#header ul li{
+    list-style: none;
+    float: left;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #000;
+    /* margin-right: 40px; */
+    padding: 20px;
+    font-size: 20px;
+}
+#header ul li a:hover{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+.active{
+    border-bottom: 5px solid rgb(244, 4, 4);
+}
+#header .side button{
+    float: right;
+    position: relative;
+    bottom: 10px;
+    right: 30px;
+}
+.hero{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+.front{
+    height: 583px;
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 1280px;
+    
+    position: absolute;
+    top: -5px;
+    left: -50px;
+}
+.hero h1{
+    font-size: 5rem;
+    margin-top: 250px;
+    font-weight: 400;
+}
+.thin{
+    font-weight: 100;
+}
+.hero button{
+    margin-top: 40px;
+    width: 150px;
+}
+.clear{
+    clear: both;
+}
+.intro-img{
+    float: left;
+}
+.intro-img img{
+    height: 500px;
+    width: 700px;
+    display: inline;
+    margin: 50px;
+}
+.intro-about{
+    padding: 50px;
+}
+.intro-about h2{
+    font-size: 2.7rem;
+    margin-bottom: 30px;
+}
+.intro-about p{
+    font-size: 15px;
+    line-height: 25px;
+    color: rgb(161, 160, 160);
+    font-weight:400;
+}
+.tagline{
+    background-color: rgb(161, 160, 160, 0.7);
+    padding: 10px;
+    margin-top: 47px;
+    border-right: rgb(244, 4, 4) solid 5px;
+    font-family: 'Allura', cursive;
+    font-size: 2rem;
+}
+.features h2{
+    font-size: 2.7rem;
+    text-align: center;
+    margin: 5px 0;
+}
+.feature img{
+    height: 300px;
+    width: 500px;
+}
+.features{
+    width: 1200px;
+    margin: 0 auto;
+}
+.features div{
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+/* .feature-name{
+    font-size: 1.5rem;
+} */
+.team-img{
+    height: 80vh;
+    background: url(./images/pylyp-sukhenko-y-XZf_TNRms-unsplash.jpg) no-repeat center center/cover;
+    margin: 30px 0;
+    color: #fff;
+    padding-top: 310px;
+    padding-left: 50px;
+    width: 100%;
+}
+.team-img h2{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+.team-img p {
+    margin-left: 8px;
+}
+.chef-name{
+    width: 300px;
+    float: left;
+    background-color: rgba(215, 213, 213, 0.7);
+    padding: 30px;
+    margin: 20px 60px;
+    border-bottom: 5px rgb(244, 4, 4) solid;
+}
+.chef-name h2{
+    margin: 0 0 15px 0;
+}
+.chef-name h3{
+    margin-bottom: 15px;
+}
+.footer{
+    height: 80px;
+    color: #fff;
+    background-color: #333;
+    width: 100%;
+}
+.footer ul li{
+    list-style: none;
+    float: left;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    padding-right: 20px;
+    border-right: 1px rgb(161, 160, 160) solid;
+}
+.footer p{
+    float: left;
+}
+.footer ul{
+    float: right;
+}
