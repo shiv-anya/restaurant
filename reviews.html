@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "icon" href = "./images/soup.png" type = "image/x-icon" >
-    <link rel="stylesheet" href="./reviews.css">
+    <link rel="stylesheet" href="./reviews.css" media="only screen and (min-width: 992px)">
+    <link rel="stylesheet" href="./reviews_mob.css" media="only screen and (max-width: 600px)">
+    <link rel="stylesheet" href="./reviews_tab.css" media="only screen and (min-width: 600px) and (max-width: 992px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa125d38f.js" crossorigin="anonymous"></script>
     <title>Appetizer</title>
 </head>
 <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="./about.html"><i class="fas fa-user"></i></a></li>
+            <li><a href="./locations.html"><i class="fas fa-map-marker-alt"></i></a></li>
+            <li><a href="#header" class="active"><i class="fas fa-star"></i></a></li>
+        </ul>
+    </div>
     <div id="header">
         <div class="nav">
             <img src="./images/soup.png" alt="logo">
@@ -33,18 +44,17 @@
             </div>
         </div>
         </div>
-        <div class="clear"></div>
         <div class="reviews">
             <div class="review">
-                <img src="./images/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="" height="80px" width="80px">
+                <img src="./images/aiony-haust-3TLl_97HNJo-unsplash.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, eius vero fugit facilis mollitia beatae molestias aspernatur illo ex error ipsa qui adipisci sint ducimus quas culpa at animi blanditiis.</p>
             </div>
             <div class="review">
-                <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="" height="80px" width="80px">
+                <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, eius vero fugit facilis mollitia beatae molestias aspernatur illo ex error ipsa qui adipisci sint ducimus quas culpa at animi blanditiis.</p>
             </div>
             <div class="review">
-                <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="" height="80px" width="80px">
+                <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, eius vero fugit facilis mollitia beatae molestias aspernatur illo ex error ipsa qui adipisci sint ducimus quas culpa at animi blanditiis.</p>
             </div>
         </div>

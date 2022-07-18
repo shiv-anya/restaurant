@@ -28,9 +28,6 @@ li{
 .active{
     border-bottom: 5px solid rgb(244, 4, 4);
 }
-.navbar{
-    display: none;
-}
 .nav{
     background-color: rgb(255, 255, 255, 0.9);
     height: 15vh;
@@ -54,94 +51,45 @@ li{
     display: flex;
 }
 .nav ul li a{
-    padding: 30px;
+    padding: 30px 15px;
 }
 .nav ul li a:hover{
     border-bottom: solid 5px rgb(244, 4, 4);
 }
+.red{
+    color:rgb(244, 4, 4);
+    margin-top: 10px;
+}
 #header{
-    height: 100vh;
-    background: url(./images/brooke-lark-M4E7X3z80PQ-unsplash.jpg) no-repeat center center/ cover;
-    background-attachment: fixed;
+    height: 70vh;
+    background: url(./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) no-repeat center center/cover;
 }
 .front{
-    background-color: rgba(0,0,0,0.7);
-    height: 100vh;
-}
-.front{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-.front h1{
-    font-size: 5rem;
-    margin: 30px 0;
-    margin-top: 0;
-}
-.front button{
-    width: 150px;
-}
-.intro{
-    display: flex;
-    margin: 50px 0;
-}
-.intro-img{
-    flex: 1;
-}
-.intro-about{
-    flex: 1;
-    padding: 20px 0;
-}
-.intro-about p{
-    text-align: justify;
-    margin-right: 20px;
-}
-.intro-img img{
-    height: 420px;
-    width: 550px;
-    margin-left: 50px;
-}
-.intro-about h2{
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-.tagline{
-    background-color: rgb(251, 187, 187);
-    padding: 20px;
-    margin-top: 20px;
-    font-family: allura, cursive;
-    font-size: 2rem;
-    border-right: 5px solid rgb(244, 4, 4);
-}
-.team-img{
-    height: 80vh;
-    background: url(./images/pylyp-sukhenko-y-XZf_TNRms-unsplash.jpg) no-repeat center center/ cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 50px;
     color: #fff;
+    height: 70vh;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.7);
 }
-.team-img h2{
-    font-size: 5rem;
+.front h1{
+    font-size: 3rem;
+    text-transform: capitalize;
 }
-.team-img p{
-    font-size: 2rem;
+.locations{
+    width: 100%;
 }
-.chefs{
+.container{
     display: flex;
+    flex-direction: column;
 }
-.chef-name{
+.location{
     flex: 1;
-    margin: 30px;
-    padding: 20px;
+    margin: 10px;
+    padding: 20px 60px;
     background-color: rgb(251, 187, 187);
     border-bottom: 5px solid rgb(244, 4, 4);
-}
-.chef-name h2, h3{
-    margin-bottom: 10px;
 }
 .footer{
     background-color: #333;
@@ -159,4 +107,7 @@ li{
     color: #fff;
     padding: 0 30px;
     border-right: #f4f4f4 solid 1px;
+}
+.navbar{
+    display: none;
 }

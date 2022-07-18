@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "icon" href = "./images/soup.png" type = "image/x-icon" >
-    <link rel="stylesheet" href="./locations.css">
+    <link rel="stylesheet" href="./locations.css" media="only screen and (min-width: 992px)">
+    <link rel="stylesheet" href="./locations_mob.css" media="only screen and (max-width: 600px)">
+    <link rel="stylesheet" href="./locations_tab.css" media="only screen and (min-width: 600px) and (max-width: 992px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa125d38f.js" crossorigin="anonymous"></script>
     <title>Appetizer</title>
 </head>
 <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="./about.html"><i class="fas fa-user"></i></a></li>
+            <li><a href="#header" class="active"><i class="fas fa-map-marker-alt"></i></a></li>
+            <li><a href="./reviews.html"><i class="fas fa-star"></i></a></li>
+        </ul>
+    </div>
     <div id="header">
         <div class="nav">
             <img src="./images/soup.png" alt="logo">
@@ -34,38 +45,36 @@
         </div>
         </div>
         <div class="locations">
-                <div class="location1">
-                    <div class="l1-1 location">
-                        <h2>ENFOLD DETROIT</h2>
-                        <p>4870 Cass Ave</p>
-                        <p>Detroit, MI, United States</p>
-                        <p class="red">(555) 389 976</p>
-                        <p class="red">detroit@enfold-restaurant.com</p>
-                    </div>
-                    <div class="l1-2 location">
-                        <h2>ENFOLD L.A.</h2>
-                        <p>1818 N Vermont Ave</p>
-                        <p>Los Angeles, CA, United States</p>
-                        <p class="red">(555) 774 433</p>
-                        <p class="red">LA@enfold-restaurant.com</p>
-                    </div>
+                <div class="container">
+                <div class="location">
+                    <h2>ENFOLD DETROIT</h2>
+                    <p>4870 Cass Ave</p>
+                    <p>Detroit, MI, United States</p>
+                    <p class="red">(555) 389 976</p>
+                    <p class="red">detroit@enfold-restaurant.com</p>
                 </div>
-                <div class="location2">
-                    <div class="l2-1 location">
-                        <h2>ENFOLD SEATTLE</h2>
-                        <p>4870 Cass Ave</p>
-                        <p>Detroit, MI, United States</p>
-                        <p class="red">(555) 389 976</p>
-                        <p class="red">detroit@enfold-restaurant.com</p>
-                    </div>
-                    <div class="l2-2 location">
-                        <h2>ENFOLD DALLAS</h2>
-                        <p>1818 N Vermont Ave</p>
-                        <p>Los Angeles, CA, United States</p>
-                        <p class="red">(555) 774 433</p>
-                        <p class="red">LA@enfold-restaurant.com</p>
-                    </div>
+                <div class="location">
+                    <h2>ENFOLD L.A.</h2>
+                    <p>1818 N Vermont Ave</p>
+                    <p>Los Angeles, CA, United States</p>
+                    <p class="red">(555) 774 433</p>
+                    <p class="red">LA@enfold-restaurant.com</p>
                 </div>
+                <div class="location">
+                    <h2>ENFOLD SEATTLE</h2>
+                    <p>4870 Cass Ave</p>
+                    <p>Detroit, MI, United States</p>
+                    <p class="red">(555) 389 976</p>
+                    <p class="red">detroit@enfold-restaurant.com</p>
+                </div>
+                <div class="location">
+                    <h2>ENFOLD DALLAS</h2>
+                    <p>1818 N Vermont Ave</p>
+                    <p>Los Angeles, CA, United States</p>
+                    <p class="red">(555) 774 433</p>
+                    <p class="red">LA@enfold-restaurant.com</p>
+                </div>
+            </div>
         </div>
         <div class="clear"></div>
         <div class="footer">

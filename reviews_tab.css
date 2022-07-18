@@ -51,18 +51,17 @@ li{
     display: flex;
 }
 .nav ul li a{
-    padding: 30px;
+    padding: 25px 15px;
 }
 .nav ul li a:hover{
     border-bottom: solid 5px rgb(244, 4, 4);
 }
-.red{
-    color:rgb(244, 4, 4);
-    margin-top: 10px;
+.navbar{
+    display: none;
 }
 #header{
     height: 70vh;
-    background: url(./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) no-repeat center center/cover;
+    background: url(./images/emy-XoByiBymX20-unsplash.jpg) no-repeat center center/cover;
 }
 .front{
     display: flex;
@@ -71,30 +70,35 @@ li{
     color: #fff;
     height: 70vh;
     padding: 30px;
-    background-color: rgba(0,0,0,0.7);
 }
 .front h1{
     font-size: 5rem;
-    text-transform: capitalize;
 }
-.locations{
-    width: 100%;
-}
-.container{
+.reviews{
     display: flex;
+    flex-direction: column;
+    margin: 20px 0;
 }
-.location{
-    flex: 1;
-    margin: 30px;
-    padding: 20px 60px;
-    background-color: rgb(251, 187, 187);
-    border-bottom: 5px solid rgb(244, 4, 4);
+.review{
+    background-color: #333;
+    display: flex;
+    width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    align-items: center;
+    border-radius: 5px;
+    color: #fff;
+}
+.review img{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 .footer{
     background-color: #333;
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
     align-items: center;
     color: #fff;
     padding: 30px;
@@ -106,7 +110,4 @@ li{
     color: #fff;
     padding: 0 30px;
     border-right: #f4f4f4 solid 1px;
-}
-.navbar{
-    display: none;
 }

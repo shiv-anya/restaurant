@@ -25,36 +25,27 @@ li{
 .thin{
     font-weight: 100;
 }
-.active{
-    border-bottom: 5px solid rgb(244, 4, 4);
-}
 .nav{
-    background-color: rgb(255, 255, 255, 0.9);
-    height: 15vh;
-    padding: 40px;
-    color: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+    display: none;
+}
+.navbar{
     width: 100vw;
+    position: fixed;
+    bottom: 0;
 }
-.side{
+.navbar ul{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90vw;
+    padding: 10px 20px;
     display: flex;
-    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
 }
-.nav img{
-    height: 50px;
-    width: 50px;
-}
-.nav ul{
-    display: flex;
-}
-.nav ul li a{
-    padding: 30px;
-}
-.nav ul li a:hover{
-    border-bottom: solid 5px rgb(244, 4, 4);
+.active{
+    color:rgb(244, 4, 4);
 }
 #header{
     height: 70vh;
@@ -67,9 +58,10 @@ li{
     color: #fff;
     height: 70vh;
     padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .front h1{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .reviews{
     display: flex;
@@ -79,7 +71,8 @@ li{
 .review{
     background-color: #333;
     display: flex;
-    width: 900px;
+    flex-direction: column;
+    /* width:; */
     margin: 10px auto;
     padding: 20px;
     align-items: center;
@@ -87,27 +80,27 @@ li{
     color: #fff;
 }
 .review img{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
-    margin-right: 20px;
+    margin: 10px 0;
 }
 .footer{
     background-color: #333;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 .footer ul{
     display: flex;
+    flex-direction: column;
+}
+.footer ul li{
+    border-bottom: #f4f4f4 solid 1px;
+    padding: 10px 10px;
 }
 .footer ul li a{
     color: #fff;
-    padding: 0 30px;
-    border-right: #f4f4f4 solid 1px;
-}
-.navbar{
-    display: none;
 }

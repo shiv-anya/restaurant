@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "icon" href = "./images/soup.png" type = "image/x-icon" >
-    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about.css" media="only screen and (min-width: 992px)">
+    <link rel="stylesheet" href="./about_mob.css" media="only screen and (max-width: 600px)">
+    <link rel="stylesheet" href="./about_tab.css" media="only screen and (min-width: 600px) and (max-width: 992px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eaa125d38f.js" crossorigin="anonymous"></script>
     <title>Appetizer</title>
 </head>
 <body>
+    <div class="navbar">
+        <ul>
+            <li><a href="./index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="#header" class="active"><i class="fas fa-user"></i></a></li>
+            <li><a href="./locations.html"><i class="fas fa-map-marker-alt"></i></a></li>
+            <li><a href="./reviews.html"><i class="fas fa-star"></i></a></li>
+        </ul>
+    </div>
     <div id="header">
         <div class="nav">
             <img src="./images/soup.png" alt="logo">
@@ -21,7 +32,7 @@
                     <li><a href="./index.html">Welcome</a></li>
                     <li><a class="active" href="#header">About</a></li>
                     <li><a href="./locations.html">Locations</a></li>
-                    <li><a href="#header">Reviews</a></li>
+                    <li><a href="./reviews.html">Reviews</a></li>
                 </ul>
                 <button class="primary-btn">Reservations</button>
             </div>
@@ -47,11 +58,10 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ab vel est quas libero enim, eum laudantium! Illum aperiam minus fuga molestiae in, odio rerum ab natus repudiandae! Excepturi, rerum!</p>
             </div>
         </div>
-        <div class="clear"></div>
         <div class="achievements">
-            <div class="center">
+            <div class="container">
                 <ul>
-                    <li style="margin-left: 30px;">
+                    <li>
                         <h2>17</h2>
                         <p>Years of experience</p>
                     </li>
@@ -67,34 +77,31 @@
                         <h2>75</h2>
                         <p>dishes</p>
                     </li>
-                    <li style="margin-right: 0px;">
+                    <li>
                         <h2>200<span class="thin" style="color: gray;">+</span></h2>
                         <p>wines</p>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="clear"></div>
         <div class="photos">
-            <div class="line1">
-                <div class="l1-pic1"></div>
-                <div class="right">
+            <div class="container">
+                <div class="line">
+                    <div class="l1-pic1"></div>
                     <div class="l1-pic2"></div>
                     <div class="l1-pic3"></div>
                 </div>
-            </div>
-            <div class="clear"></div>
-            <div class="line2">
-                <div class="l2-pic1"></div>
-                <div class="l2-pic2"></div>
-            </div>
-            <div class="line3">
-                <div class="l3-pic1"></div>
-                <div class="l3-pic2"></div>
-                <div class="l3-pic3"></div>
+                <div class="line">
+                    <div class="l2-pic1"></div>
+                    <div class="l2-pic2"></div>
+                </div>
+                <div class="line">
+                    <div class="l3-pic1"></div>
+                    <div class="l3-pic2"></div>
+                    <div class="l3-pic3"></div>
+                </div>
             </div>
         </div>
-        <div class="clear"></div>
         <div class="footer">
             <p>&copy; Appetizer Restaurant</p>
             <div>

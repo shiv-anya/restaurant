@@ -25,44 +25,31 @@ li{
 .thin{
     font-weight: 100;
 }
-.active{
-    border-bottom: 5px solid rgb(244, 4, 4);
-}
-.navbar{
+.nav{
     display: none;
 }
-.nav{
-    background-color: rgb(255, 255, 255, 0.9);
-    height: 15vh;
-    padding: 40px;
-    color: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+.navbar{
     width: 100vw;
+    position: fixed;
+    bottom: 0;
 }
-.side{
+.navbar ul{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90vw;
+    padding: 10px 20px;
     display: flex;
-    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
 }
-.nav img{
-    height: 50px;
-    width: 50px;
-}
-.nav ul{
-    display: flex;
-}
-.nav ul li a{
-    padding: 30px;
-}
-.nav ul li a:hover{
-    border-bottom: solid 5px rgb(244, 4, 4);
+.active{
+    color:rgb(244, 4, 4);
 }
 #header{
     height: 100vh;
     background: url(./images/brooke-lark-M4E7X3z80PQ-unsplash.jpg) no-repeat center center/ cover;
-    background-attachment: fixed;
 }
 .front{
     background-color: rgba(0,0,0,0.7);
@@ -72,47 +59,45 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     color: #fff;
 }
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
 .front h1{
-    font-size: 5rem;
-    margin: 30px 0;
-    margin-top: 0;
+    font-size: 3rem;
+    margin: 0 0 10px 10px;
 }
 .front button{
     width: 150px;
+    margin: 5px 10px;
 }
 .intro{
-    display: flex;
-    margin: 50px 0;
-}
-.intro-img{
-    flex: 1;
+    margin: 20px 0;
 }
 .intro-about{
-    flex: 1;
-    padding: 20px 0;
+    padding: 10px 10px;
 }
 .intro-about p{
     text-align: justify;
-    margin-right: 20px;
+    /* font-size: 15px; */
+    /* margin-right: 20px; */
 }
 .intro-img img{
-    height: 420px;
-    width: 550px;
-    margin-left: 50px;
+    height: 150px;
+    margin-left: 10px;
 }
 .intro-about h2{
-    font-size: 3rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    /* margin-bottom: 20px; */
 }
 .tagline{
     background-color: rgb(251, 187, 187);
     padding: 20px;
     margin-top: 20px;
     font-family: allura, cursive;
-    font-size: 2rem;
+    font-size: 1rem;
     border-right: 5px solid rgb(244, 4, 4);
 }
 .team-img{
@@ -121,21 +106,22 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 50px;
+    padding: 10px;
     color: #fff;
 }
 .team-img h2{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .team-img p{
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .chefs{
     display: flex;
+    flex-direction: column;
 }
 .chef-name{
     flex: 1;
-    margin: 30px;
+    margin: 15px;
     padding: 20px;
     background-color: rgb(251, 187, 187);
     border-bottom: 5px solid rgb(244, 4, 4);
@@ -146,17 +132,19 @@ li{
 .footer{
     background-color: #333;
     display: flex;
-    justify-content: space-between;
-    /* padding: 20px; */
+    flex-direction: column;
     align-items: center;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 .footer ul{
     display: flex;
+    flex-direction: column;
+}
+.footer ul li{
+    border-bottom: #f4f4f4 solid 1px;
+    padding: 10px 10px;
 }
 .footer ul li a{
     color: #fff;
-    padding: 0 30px;
-    border-right: #f4f4f4 solid 1px;
 }

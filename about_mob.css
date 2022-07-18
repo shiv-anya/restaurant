@@ -1,4 +1,3 @@
-/* Navbar */
 *{
     margin: 0;
     padding: 0;
@@ -26,36 +25,27 @@ li{
 .thin{
     font-weight: 100;
 }
-.active{
-    border-bottom: 5px solid rgb(244, 4, 4);
-}
 .nav{
-    background-color: rgb(255, 255, 255, 0.9);
-    height: 15vh;
-    padding: 40px;
-    color: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
+    display: none;
+}
+.navbar{
     width: 100vw;
+    position: fixed;
+    bottom: 0;
 }
-.side{
+.navbar ul{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90vw;
+    padding: 10px 20px;
     display: flex;
-    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #333, -1px -1px 2px #333;
 }
-.nav img{
-    height: 50px;
-    width: 50px;
-}
-.nav ul{
-    display: flex;
-}
-.nav ul li a{
-    padding: 30px;
-}
-.nav ul li a:hover{
-    border-bottom: solid 5px rgb(244, 4, 4);
+.active{
+    color:rgb(244, 4, 4);
 }
 #header{
     height: 70vh;
@@ -67,111 +57,99 @@ li{
     justify-content: end;
     color: #fff;
     height: 70vh;
-    padding: 30px;
+    padding: 10px;
 }
 .front h1{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .about{
     display: flex;
+    flex-direction: column;
 }
 .about-us{
-    padding: 20px;
+    padding: 10px;
 }
 .about-dine{
-    padding: 20px;
+    padding: 10px;
 }
 .about-us h2{
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .about-dine h2{
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .achievements{
-    width: 1263px;
     padding: 20px;
-}
-.container{
-    width: 900px;
-    margin: 0 auto;
 }
 .container ul{
     display: flex;
+    flex-direction: column;
 }
 .container ul li{
     text-align: center;
-    margin-right: 100px;
-    margin: 0 auto;
+    /* margin-right: 100px; */
+    margin: 10px auto;
 }
 .container h2{
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .photos{
-    margin: 30px 0;
+    margin: 5px 0;
 }
 .line{
     display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .l1-pic1{
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
     background: url(./images/adam-jaime-dmkmrNptMpw-unsplash.jpg) no-repeat center center/ cover;
+    margin: 5px auto;
 }
 .l1-pic2{
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
     background: url(./images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg) no-repeat center center/ cover;
+    margin: 5px auto;
 }
 .l1-pic3{
-    height: 200px;
-    width: 300px;
+    height: 100px;
+    width: 200px;
     background: url(./images/brooke-lark-HlNcigvUi4Q-unsplash.jpg) no-repeat center center/ cover;
+    margin: 5px auto;
 }
 .l2-pic1{
-    height: 200px;
-    width: 600px;
+    height: 100px;
+    width: 200px;
     background: url(./images/brooke-lark-jUPOXXRNdcA-unsplash.jpg) no-repeat center center/ cover;
+    margin: 5px auto;
 }
 .l2-pic2{
-    height: 200px;
-    width: 600px;
+    height: 100px;
+    width: 200px;
     background: url(./images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) no-repeat center center/ cover;
-}
-.l3-pic1{
-    height: 200px;
-    width: 300px;
-    background: url(./images/davide-cantelli-jpkfc5_d-DI-unsplash.jpg) no-repeat center center/ cover;
-}
-.l3-pic2{
-    height: 200px;
-    width: 300px;
-    background: url(./images/lidye-1Shk_PkNkNw-unsplash.jpg) no-repeat center center/ cover;
-}
-.l3-pic3{
-    height: 200px;
-    width: 300px;
-    background: url(./images/rachel-park-hrlvr2ZlUNk-unsplash.jpg) no-repeat center center/ cover;
+    margin: 5px auto;
 }
 .footer{
     background-color: #333;
     display: flex;
-    justify-content: space-between;
-    /* padding: 20px; */
+    flex-direction: column;
     align-items: center;
     color: #fff;
-    padding: 30px;
+    padding: 20px;
 }
 .footer ul{
     display: flex;
+    flex-direction: column;
+}
+.footer ul li{
+    border-bottom: #f4f4f4 solid 1px;
+    padding: 10px 10px;
 }
 .footer ul li a{
     color: #fff;
-    padding: 0 30px;
-    border-right: #f4f4f4 solid 1px;
-}
-.navbar{
-    display: none;
 }
