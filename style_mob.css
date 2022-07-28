@@ -50,6 +50,9 @@ li{
 .navbar ul li {
     margin-bottom: 15px;
 }
+.times{
+    display: none;
+}
 .active{
     color:rgb(244, 4, 4);
 }
