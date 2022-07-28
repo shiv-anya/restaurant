@@ -45,6 +45,7 @@ li{
 }
 .navbar ul{
     padding: 15px;
+    display: none;
 }
 .navbar ul li {
     margin-bottom: 15px;
